@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+#flex-container{
+    width: 100%;
+    background-color: blue;
+    height: 4rem;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-image {
+    width:80px;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+}
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
