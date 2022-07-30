@@ -70,13 +70,5 @@ body {
 .pesquisa:focus::placeholder {
     opacity: 0;
 }
-.slide-automatico {
-    display: flex;
-    justify-content: center;
-    padding-top: 1.2rem;
-    
-}
 
-#foto1, #foto2, #foto3{
-    width: 150px;
-}
+
