@@ -59,7 +59,7 @@ li {
 }
 
 .pesquisa {
-    width: 100%;
+    width: 80%;
     padding: 0.3rem;
     background-image: url(../assets/lupa.png);
     background-repeat: no-repeat;
@@ -72,4 +72,7 @@ li {
 }
 .pesquisa:focus::placeholder {
     opacity: 0;
+}
+.perfil {
+    
 }
