@@ -65,4 +65,11 @@ li {
     background-repeat: no-repeat;
     background-position: 98%;
     font-size: 1rem;
+    border: 2px solid gray;
+}
+.pesquisa:focus {
+    outline: 2px solid gray;
+}
+.pesquisa:focus::placeholder {
+    opacity: 0;
 }
