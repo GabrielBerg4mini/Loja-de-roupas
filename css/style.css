@@ -10,43 +10,48 @@ body {
     min-height: 100vh;
 }
 
-#container-1 {
+.container-1 {
     width: 100%;
     background-color: rgb(0, 0, 0);
-    display: table;
-    z-index: 10;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
 }
 
 .menu {
-    float: left;
-    padding: 1.8rem 0 0 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 0 3rem 0 0.5rem;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
-    padding: 0.5rem 0 0.5rem 0;
+    align-items: center;
+    margin: 0 5rem 0 5rem;
+}
 
+.perfil {
+    display: flex;
+    align-items: center;
+    margin: 0 0.7rem 0 0.2rem;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
 }
 
 .logo-image {
     width: 50px;
 }
 
-.perfil {
-    float: right;
-    padding-right: 0.5rem;
-}
-
 .img-perfil {
     width: 1.5rem;
 }
 
-.carrinho {
-    float: right;
-    padding: 0 0.5rem 0 0.5rem;
+.img-carrinho {
+    width: 1.3rem;
 }
+
 .pesquisa {
     width: 100%;
     padding: 0.3rem;
@@ -65,4 +70,3 @@ body {
 .pesquisa:focus::placeholder {
     opacity: 0;
 }
-
