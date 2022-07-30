@@ -59,13 +59,14 @@ li {
 }
 
 .pesquisa {
-    width: 80%;
+    width: 85%;
     padding: 0.3rem;
     background-image: url(../assets/lupa.png);
     background-repeat: no-repeat;
     background-position: 98%;
     font-size: 1rem;
     border: 2px solid gray;
+    border-radius: 5px;
 }
 .pesquisa:focus {
     outline: 2px solid gray;
@@ -74,5 +75,9 @@ li {
     opacity: 0;
 }
 .perfil {
-    
+    float: left;
+    padding: 0 0.5rem 0 0.5rem ;
+}
+.img-perfil {
+    width: 30px;
 }
