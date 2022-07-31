@@ -36,11 +36,39 @@
         <div class="motor-pesquisa">
             <input class="pesquisa" type="text" name="text" id="text" placeholder="O que você procura hoje?">
         </div>
+        <div class="slider">
 
-        <div class="sliders">
-            <img class="ativa" src="../assets/roupa1.jpg" alt="r1">
-            <img src="../assets/roupa3.jpg" alt="r3">
-            <img src="../assets/roupa4.jpg" alt="r4">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="../assets/roupa1.jpg" alt="r1">
+                </div>
+                <div class="slide">
+                    <img src="../assets/roupa2.jpg" alt="r2">
+                </div>
+                <div class="slide">
+                    <img src="../assets/roupa3.jpg" alt="r3">
+                </div>
+                <div class="slide">
+                    <img src="../assets/roupa4.jpg" alt="r4">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
 
         </div>
     </section>
