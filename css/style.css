@@ -145,16 +145,11 @@ body {
 #radio4:checked ~ .first {
 	margin-left: -75% ;
 }
-
-.promoçao {
-	display: flex;
-	justify-content: center;
+.container-3 {
+	margin-top: 1rem;
+	width: 100%;
+	min-height: 100vh;
 }
-
-.promo {
-	width: 20rem;
-}
-
 .roupas {
 	display: flex;
 	flex-direction: column;
@@ -167,4 +162,19 @@ body {
 }
 .r1, .r2, .r3, .r4 {
 	width: 200px;
+}
+
+.txt1, .txt2, .txt3, .txt4 {
+	font-size: 0.8rem;
+	font-family: 'Poppins';
+}
+h3 , p {
+	padding: 0 0 1rem 0.3rem;
+}
+.pt, .pv {
+	padding-bottom: 0.2rem;
+}
+
+.p4 {
+	font-size: 0.7rem;
 }
