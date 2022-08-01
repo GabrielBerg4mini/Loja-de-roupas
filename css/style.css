@@ -147,12 +147,24 @@ body {
 }
 
 .promoçao {
-	background-color: red;
-	margin: 1rem;
-	padding: 1rem;
-	border-radius: 2rem;
-	border: 0.3rem solid black;
-	font-size: small;
-	color: white;
-	font-family: 'Rampart One', cursive;
+	display: flex;
+	justify-content: center;
+}
+
+.promo {
+	width: 20rem;
+}
+
+.roupas {
+	display: flex;
+	flex-direction: column;
+}
+
+.roupa1, .roupa2, .roupa3, .roupa4 {
+	display: flex;
+	justify-content: start;
+	padding: 0 0 1rem 1rem;
+}
+.r1, .r2, .r3, .r4 {
+	width: 200px;
 }
