@@ -2,12 +2,12 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	
+
 }
 
 body {
 	width: 100%;
-	min-height: 100vh;	
+	min-height: 100vh;
 	background: rgb(255, 255, 255);
 }
 
@@ -114,6 +114,7 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
 .manual-btn {
 	border: 2px solid #5ab4ef;
 	padding: 0.2rem;
@@ -130,51 +131,112 @@ body {
 	background-color: #ffff;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked~.first {
 	margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked~.first {
 	margin-left: -25%;
 }
 
-#radio3:checked ~ .first {
+#radio3:checked~.first {
 	margin-left: -50%;
 }
 
-#radio4:checked ~ .first {
-	margin-left: -75% ;
+#radio4:checked~.first {
+	margin-left: -75%;
 }
+
 .container-3 {
 	margin-top: 1rem;
 	width: 100%;
 	min-height: 100vh;
 }
+
 .roupas {
 	display: flex;
 	flex-direction: column;
 }
 
-.roupa1, .roupa2, .roupa3, .roupa4 {
+.roupa1,
+.roupa2,
+.roupa3,
+.roupa4 {
 	display: flex;
 	justify-content: start;
 	padding: 0 0 1rem 1rem;
 }
-.r1, .r2, .r3, .r4 {
+
+.r1,
+.r2,
+.r3,
+.r4 {
 	width: 200px;
 }
 
-.txt1, .txt2, .txt3, .txt4 {
+.txt1,
+.txt2,
+.txt3,
+.txt4 {
 	font-size: 0.8rem;
 	font-family: 'Poppins';
 }
-h3 , p {
+
+h3,
+p {
 	padding: 0 0 1rem 0.3rem;
 }
-.pt, .pv {
+
+.pt,
+.pv {
 	padding-bottom: 0.2rem;
 }
 
 .p4 {
 	font-size: 0.7rem;
+}
+
+.rodapé {
+	background-color: rgb(6, 54, 87);
+	width: 100%;
+	/* min-height: 100vh; */
+}
+
+.acesso {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.msg {
+	text-align: center;
+	padding: 1rem 0;
+	font-size: larger;
+	font-family: 'Poppins';
+	color: white;
+}
+
+.insta,
+.face,
+.email,
+.tel {
+	margin: 2rem 2.5rem;
+}
+
+.localização {
+	font-size: 0;
+	height: 100px;
+}
+
+.pingo {
+	display: flex;
+	align-items: flex-end;
+	width: 15px;
+}
+
+.pl {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 1rem;
 }
