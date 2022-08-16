@@ -19,29 +19,23 @@ body {
 
 }
 .cabeça {
+	width: 100%;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
 }
 
 .menu {
 	display: flex;
 	align-items: center;
-	margin: 0 3rem 0 0.5rem;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
-	margin: 0 5rem 0 5rem;
+
 }
 
-.perfil {
-	display: flex;
-	align-items: center;
-	margin: 0 0.7rem 0 0.2rem;
-}
-
-.carrinho {
+.perfil-carrinho {
 	display: flex;
 	align-items: center;
 }
@@ -52,6 +46,7 @@ body {
 
 .img-perfil {
 	width: 1.5rem;
+	margin-right: 0.5rem;
 }
 
 .img-carrinho {
@@ -109,7 +104,6 @@ body {
 	position: relative;
 	transition: 2s;
 }
-
 .slide img {
 	width: 400px;
 }
@@ -121,7 +115,6 @@ body {
 	display: flex;
 	justify-content: center;
 }
-
 .manual-btn {
 	border: 2px solid #5ab4ef;
 	padding: 0.2rem;
