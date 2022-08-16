@@ -259,9 +259,6 @@ p {
 } 
 
 @media (min-width: 380px) {
-	body {
-		background-color: rgb(61, 56, 56);
-	}
 	.container-1 {
 		width: 100%;
 
@@ -292,5 +289,48 @@ p {
 	.img-perfil, .img-carrinho {
 		width: 2rem;
 	}
-	
+
+	.slider {
+		padding-top: 1.5rem;
+		width: 20%;
+	}
+	.slides {
+		height: 380px;
+		display: flex;
+	}
+	.manual-navigation {
+		position: absolute;
+		width: 20%;
+		margin-top: -20px;
+		display: flex;
+		justify-content: center
+	}
+	.container-3 {
+		min-height: 20vh;
+	}
+	.roupas {
+		padding-top: 4rem;
+		flex-direction: row;
+	}
+	.rodapé {
+		min-height: 50vh;
+	}
+	.msg {
+		font-size: 2rem;
+	}
+	.acesso {
+		padding: 1rem 1rem 0 1rem ;
+	}
+	.insta, .face, .email, .tel {
+		width: 1.5rem;
+	}
+	.pingo {
+		width: 1rem;
+	}
+	.pl {
+		font-size: 1.5rem;
+	}
+	.segurança {
+		font-size: 1.5rem;
+	}
 	}
